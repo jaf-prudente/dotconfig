@@ -1,0 +1,3 @@
+@theme "/home/jaf/.config/rofi/Tema.rasi"
+
+/* rofi -modi "drun" -show drun -show-icons
