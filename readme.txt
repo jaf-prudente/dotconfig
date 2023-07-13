@@ -13,12 +13,12 @@ Pasos a seguir:
 6. Descargar la appimage de 'TexStudio'
 7. Instalar TeX Live con 'texlive-most'
     Instalar 'evince' desde 'snap'
-8. Instalar una 'nerd-font' desde https://www.nerdfonts.com/font-downloads
+8. Instalar una 'nerd-font' desde https://www.nerdfonts.com/font-downloads, se guardan en '/usr/share/fonts'
 9. Instalar 'psutil' con pip (se debió descargar con 'qtile', pero sino 
     entonces se instala)
 10. Instalar 'neofetch'
-11. Instalar 'zsh' y configurarlo con https://www.youtube.com/watch?v=TPLUkBWwrSs
-    ahí también se instala 'Oh-My-Zsh' y escoger el tema de 'agnoster'
+11. Instalar 'zsh' con un 'apt install zhs' y configurarlo con https://www.youtube.com/watch?v=TPLUkBWwrSs
+    ahí también se instala 'Oh-My-Zsh' y escoger el tema de 'flecha'
 12. Agregar la orden 'neofetch' al '.zshrc'
 13. Modificar el archivo 'sudoers' que está en '/etc/sudoers'
 14. Instalar un pokit como 'polkit-gnome' y en caso de ser necesario 'ntfs-3g'

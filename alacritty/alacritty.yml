@@ -1,0 +1,65 @@
+#import:
+#  - /path/to/alacritty.yml
+
+#-------------------------------------------------
+# Window configuration
+window:
+  opacity: 0.85
+
+#-------------------------------------------------
+# Font configuration
+font:
+  normal:
+    family: FiraCode Nerd Font
+    style: Retina
+
+  bold:
+    family: FiraCode Nerd Font
+    style: Bold
+
+  italic:
+    family: FiraCode Nerd Font
+    style: Font Italic
+
+  # Bold italic font face
+  bold_italic:
+    family: FiraCode Nerd Font
+    style: Bold Italic
+
+  size: 14.0
+
+draw_bold_text_with_bright_colors: true
+
+#-------------------------------------------------
+# Colors
+colors:
+  # Default colors
+  primary:
+    background: "#171714"
+    foreground: "#f8f8f2"
+
+  # Normal colors
+  normal:
+    black: "#272822"
+    red: "#f92672"
+    green: "#a6e22e"
+    yellow: "#f4bf75"
+    blue: "#66d9ef"
+    magenta: "#ae81ff"
+    cyan: "#a1efe4"
+    white: "#f8f8f2"
+
+  # Bright colors
+  bright:
+    black: "#75715e"
+    red: "#f92672"
+    green: "#a6e22e"
+    yellow: "#f4bf75"
+    blue: "#66d9ef"
+    magenta: "#ae81ff"
+    cyan: "#a1efe4"
+    white: "#f9f8f5"
+
+#-------------------------------------------------
+selection:
+  semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
